@@ -7,14 +7,14 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["EvenementLocation/EvenementLocation.csproj", "EvenementLocation/"]
-RUN dotnet restore "EvenementLocation/EvenementLocation.csproj"
+COPY ["./Ludotheque.EvenementLocation.csproj", "Ludotheque.EvenementLocation/"]
+RUN dotnet restore "Ludotheque.EvenementLocation/Ludotheque.EvenementLocation.csproj"
 COPY . .
-WORKDIR "/src/EvenementLocation"
-RUN dotnet build "EvenementLocation.csproj" -c Release -o /app/build
+WORKDIR "/src/Ludotheque.EvenementLocation"
+RUN dotnet build "Ludotheque.EvenementLocation.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "EvenementLocation.csproj" -c Release -o /app/publish
+RUN dotnet publish "Ludotheque.EvenementLocation.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app

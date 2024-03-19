@@ -773,26 +773,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {}
+    "C:\\Users\\abrah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj",
+      "projectUniqueName": "E:\\ProjetDev\\Ludotheque\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj",
       "projectName": "EvenementLocation",
-      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\obj\\",
+      "projectPath": "E:\\ProjetDev\\Ludotheque\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj",
+      "packagesPath": "C:\\Users\\abrah\\.nuget\\packages\\",
+      "outputPath": "E:\\ProjetDev\\Ludotheque\\Ludotheque\\EvenementLocation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\abrah\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -805,11 +803,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -856,7 +849,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
