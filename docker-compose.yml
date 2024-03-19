@@ -59,6 +59,9 @@ services:
     volumes:
       - mongo-data:/data/db
 volumes:
+  mariadb-data:
+    name: mariadb-ludotheque-data
+    driver: local
   mongo-data:
     name: mongo-evenement-data
     driver: local

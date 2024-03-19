@@ -6,11 +6,11 @@ namespace Ludotheque.EvenementLocation.Controllers
 {
     [Route("evenement/[controller]")]
     [ApiController]
-    public class ProductsController : ControllerBase
+    public class EvenementController : ControllerBase
     {
         private IEvenementService EvenementService { get; set; }
 
-        public ProductsController(IEvenementService evenementService)
+        public EvenementController(IEvenementService evenementService)
         {
             EvenementService = evenementService;
         }
