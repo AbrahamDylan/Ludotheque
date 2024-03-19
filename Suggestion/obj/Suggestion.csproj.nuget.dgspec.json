@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj": {}
+    "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\Suggestion\\Suggestion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj": {
+    "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\Suggestion\\Suggestion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj",
-        "projectName": "EvenementLocation",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\EvenementLocation.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\Suggestion\\Suggestion.csproj",
+        "projectName": "Suggestion",
+        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\Suggestion\\Suggestion.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\EvenementLocation\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Ludotheque\\Suggestion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,28 +44,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.19.6, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[110.2.1-alpha.0.16, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
