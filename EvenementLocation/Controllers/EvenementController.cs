@@ -15,14 +15,14 @@ namespace Ludotheque.EvenementLocation.Controllers
             EvenementService = evenementService;
         }
 
-        // GET: evenement/<ProductsController>
+        // GET: evenement/<EvenementController>/5
         [HttpGet("{eventId}")]
-        public async Task<List<Evenement>> Get(string EventId)
+        public async Task<List<Evenement?>> Get(string EventId)
         {
             return await EvenementService.GetEvenement(EventId);
         }
 
-        // POST evenement/<ProductsController>
+        // POST evenement/<EvenementController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Evenement evenement)
         {
