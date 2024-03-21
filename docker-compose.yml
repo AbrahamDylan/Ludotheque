@@ -4,13 +4,15 @@ services:
     build: ./EvenementLocation
     container_name: evenement
     restart: always
+    ports:
+     - "443:443"
     networks:
       - ludotheque
   keycloak:
     image: quay.io/keycloak/keycloak:23.0.6
-    container_name: keycloak-miage
+    container_name: keycloak-ludotheque
     ports:
-      - "8080:8080"
+     - "8080:8080"
     command:
       - "start-dev"
       - "--spi-theme-static-max-age=-1"
@@ -41,8 +43,8 @@ services:
       MYSQL_PASSWORD: keycloak
     healthcheck:
       test: [ "CMD", "mysqladmin", "ping", "--silent" ]
-    # ports:
-    #   - "3306:3306"
+    ports:
+     - "3306:3306"
     restart: always
     networks:
       - ludotheque
@@ -51,8 +53,8 @@ services:
   mongo:
     image: mongo:5.0
     container_name: mongo-ludotheque
-    # ports:
-    #   - "27017:27017"
+    #ports:
+    #  - "27017:27017"
     restart: always
     networks:
       - ludotheque

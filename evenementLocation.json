@@ -10,5 +10,23 @@
         "idJeu": 1,
         "type": "Rendre",
         "date": "14/03/2023"
+    },
+    {
+        "idUtilisateur": 2,
+        "idJeu": 1,
+        "type": "Emprunter",
+        "date": "12/03/2023"
+    },
+    {
+        "idUtilisateur": 2,
+        "idJeu": 1,
+        "type": "Rendre",
+        "date": "13/03/2023"
+    },
+    {
+        "idUtilisateur": 1,
+        "idJeu": 3,
+        "type": "Emprunter",
+        "date": "11/03/2023"
     }
 ]
